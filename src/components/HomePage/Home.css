@@ -1,0 +1,58 @@
+div {
+    text-align: center;
+}
+
+.keyframe-greetings:before {
+    content: 'Hello! \A My name is William Moses';
+    animation: animate infinite 8s;
+    animation-delay: 1s;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 5rem;
+    color: #edf0f1;
+    white-space: pre-wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    height: 100%;
+}
+@keyframes animate {
+    0% {
+        
+        content: 'Hello! \AMy name is William Moses';
+    }
+    25% {
+        
+        content: 'Halo! \ANama saya William Moses';
+    }
+    50% {
+       
+        content: 'こんにちは！\A私の名前はウイリアムです';
+    }
+    75% {
+        
+        content: '你好\A我叫伟廉';
+    }
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #edf0f1;
+}
+
+.wrapper {
+    text-align: center;
+    box-sizing: content-box;
+    background-color: #24252A;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin: auto;
+    vertical-align: middle;
+    display: flex;
+}
