@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import './Portfolio.css';
+import './PortfolioPage.css';
 import convex_hull_1 from '../../images/PCG/Second Hull.PNG'
 import convex_hull_2 from '../../images/PCG/Second Hull 2.PNG'
 import { observeIntersection } from './observer.js';
 
-function Portfolio() {
+function PortfolioPage() {
 
   useEffect(() => {
     const hiddenDiv = document.querySelectorAll('.hidden');
@@ -39,4 +39,4 @@ function Portfolio() {
   )
 }
 
-export default Portfolio
+export default PortfolioPage
