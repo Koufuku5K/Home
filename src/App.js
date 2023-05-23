@@ -20,13 +20,13 @@ function App() {
         </Routes>
     </Router>
 
-    <div class="wrapper">
+    {/* <div class="wrapper">
     <span>
       <div class="keyframe-greetings"> 
-          {/* Changing Greetings Here */}
+          Changing Greetings Here
       </div>
     </span>
-    </div>
+    </div> */}
     </>
   );
 }
