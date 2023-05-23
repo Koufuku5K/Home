@@ -19,6 +19,14 @@ function App() {
           <Route path="/PCG" element={<PCG/>} />
         </Routes>
     </Router>
+
+    <div class="wrapper">
+    <span>
+      <div class="keyframe-greetings"> 
+          {/* Changing Greetings Here */}
+      </div>
+    </span>
+    </div>
     </>
   );
 }
