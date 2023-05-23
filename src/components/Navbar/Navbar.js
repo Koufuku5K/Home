@@ -8,9 +8,9 @@ function Navbar() {
         <nav>
             <ul class="nav_links">
                 <li><a href="/Home" class="cta">Home</a></li>
-                <li><a href="/portfolio" class="cta">Portfolio</a></li>
-                <li><a href="/about" class="cta">About Me</a></li>
-                <li><a href="/contact" class="cta">Contact</a></li>
+                <li><a href="/PortfolioPage" class="cta">Portfolio</a></li>
+                <li><a href="/About" class="cta">About Me</a></li>
+                <li><a href="/Contact" class="cta">Contact</a></li>
             </ul>
         </nav>
     </header>
