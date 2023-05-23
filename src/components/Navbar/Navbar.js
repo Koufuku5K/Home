@@ -1,5 +1,7 @@
 // import React, {useState} from 'react'
 import './Navbar.css'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -7,10 +9,10 @@ function Navbar() {
         <h1 href="#" class="cta">William Moses</h1>
         <nav>
             <ul class="nav_links">
-                <li><a href="/Home" class="cta">Home</a></li>
-                <li><a href="/PortfolioPage" class="cta">Portfolio</a></li>
-                <li><a href="/About" class="cta">About Me</a></li>
-                <li><a href="/Contact" class="cta">Contact</a></li>
+                <li><Link to="/Home" class="cta">Home</Link></li>
+                <li><Link to="/PortfolioPage" class="cta">Portfolio</Link></li>
+                <li><Link to="/About" class="cta">About Me</Link></li>
+                <li><Link to="/Contact" class="cta">Contact</Link></li>
             </ul>
         </nav>
     </header>
