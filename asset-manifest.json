@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5482f34b.css",
-    "main.js": "/Portfolio/static/js/main.e0d3114e.js",
-    "static/media/Second Hull 2.PNG": "/Portfolio/static/media/Second Hull 2.6838e2e2bb8a63c94538.PNG",
-    "static/media/Second Hull.PNG": "/Portfolio/static/media/Second Hull.18bba51b2ca748b4c2c8.PNG",
-    "static/media/initial_truth_2.png": "/Portfolio/static/media/initial_truth_2.31e39a230d756b478e67.png",
-    "static/media/initial_truth_1.png": "/Portfolio/static/media/initial_truth_1.527b3a7fed93cb050605.png",
-    "index.html": "/Portfolio/index.html",
-    "main.5482f34b.css.map": "/Portfolio/static/css/main.5482f34b.css.map",
-    "main.e0d3114e.js.map": "/Portfolio/static/js/main.e0d3114e.js.map"
+    "main.css": "/Home/static/css/main.5482f34b.css",
+    "main.js": "/Home/static/js/main.bb9e236f.js",
+    "static/media/Second Hull 2.PNG": "/Home/static/media/Second Hull 2.6838e2e2bb8a63c94538.PNG",
+    "static/media/Second Hull.PNG": "/Home/static/media/Second Hull.18bba51b2ca748b4c2c8.PNG",
+    "static/media/initial_truth_2.png": "/Home/static/media/initial_truth_2.31e39a230d756b478e67.png",
+    "static/media/initial_truth_1.png": "/Home/static/media/initial_truth_1.527b3a7fed93cb050605.png",
+    "index.html": "/Home/index.html",
+    "main.5482f34b.css.map": "/Home/static/css/main.5482f34b.css.map",
+    "main.bb9e236f.js.map": "/Home/static/js/main.bb9e236f.js.map"
   },
   "entrypoints": [
     "static/css/main.5482f34b.css",
-    "static/js/main.e0d3114e.js"
+    "static/js/main.bb9e236f.js"
   ]
 }
