@@ -21,7 +21,7 @@ function App() {
           <Route path="/PCG" element={<PCG/>} />
         </Routes>
     </HashRouter> */}
-    <BrowserRouter>
+    <BrowserRouter basename='/reponame'>
       <Navbar />
         <Routes>
           <Route path="/Home" element={<Home/>} />
