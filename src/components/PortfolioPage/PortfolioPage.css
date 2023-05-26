@@ -1,10 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 .container {
     text-align: left;
     min-height: 85vh;
     position: relative;
-    display: inline-flex;
+    overflow: hidden;
+    flex-direction: column;
+    display: block;
+}
+
+.container2 {
+    text-align: left;
+    min-height: 85vh;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 5s ease;
+    display: block;
+}
+
+.container2.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 3s;
+    background-color: white;
 }
 
 .text {
@@ -32,6 +53,14 @@
     line-height: 1.5;
 }
 
+.container.enter {
+    transform: translateY(0);
+}
+
+.container.exit {
+    transform: translateY(-100%);
+}
+
 section {
     display: grid;
     place-items: center;
@@ -42,7 +71,7 @@ section {
 .hidden {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-100%);
+    transform: translateY(100%);
     transition: all 3s;
     background-color: white;
 }
@@ -56,7 +85,7 @@ section {
 .show {
     opacity: 1;
     filter: blur(0);
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .top {
@@ -90,5 +119,112 @@ h2 {
 .show_img {
     filter: blur(0);
     transform: translateX(0);
+    transition: all 3s;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Div Style */
+
+.portfolioContainer {
+    display: block;
+    place-items: center;
+    align-content: center;
+    height: 85vh;
+    background-color: white;
+}
+
+.sectionContainer {
+    display: flex;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 85vh;
+    overflow: hidden;
+}
+
+p {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    color: #24252A;
+    padding-bottom: 15px;
+    background-color: white;
+    text-align: justify;
+}
+
+.sectionTitle {
+    font-size: 3rem;
+    text-align: left;
+    color: #24252A;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+.div {
+    display: none;
+}
+
+#section1 {
+    text-align: left;
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    display: block;
+    @media only screen and (max-width: 600px) {
+        text-align: left;
+        height: 85vh;
+        position: relative;
+        overflow: hidden;
+        flex-direction: column;
+        display: flex;
+        border: red 2px solid;
+    }
+}
+
+.leftdiv {
+    width: 45%;
+    margin: 30px;
+    float: left;
+}
+
+.rightdiv {
+    width: 45%;
+    margin: 30px;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .leftdiv, .rightdiv {
+        width: 90%;
+    }
+}
+
+/* Div Translation Animation */
+
+:root {
+    --number-of-scrolls: 0;
+}
+
+.translateUp {
+    transform: translate3d(0, calc(var(--translate-multiplier) * -85vh), 0);
+    /* transform: translateY(calc(var(--number-of-scrolls) * -85vh)); */
+    transition: all 3s;
+}
+
+.translateDown {
+    transform: translate3d(0, calc(var(--translate-multiplier) * -85vh), 0);
+    /* transform: translateY(calc(var(--number-of-scrolls) * -85vh)); */
     transition: all 3s;
 }
