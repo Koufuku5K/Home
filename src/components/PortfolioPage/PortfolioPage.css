@@ -218,13 +218,13 @@ p {
 }
 
 .translateUp {
-    transform: translate3d(0, calc(var(--translate-multiplier) * -85vh), 0);
-    /* transform: translateY(calc(var(--number-of-scrolls) * -85vh)); */
+    /* translateZ(0) to remove a pixel of line between divs during translation */
+    transform: translateZ(0) translateY(calc(var(--number-of-scrolls) * -85vh));
     transition: all 3s;
 }
 
 .translateDown {
-    transform: translate3d(0, calc(var(--translate-multiplier) * -85vh), 0);
-    /* transform: translateY(calc(var(--number-of-scrolls) * -85vh)); */
+    /* translateZ(0) to remove a pixel of line between divs during translation */
+    transform: translateZ(0) translateY(calc(var(--number-of-scrolls) * -85vh));
     transition: all 3s;
 }
