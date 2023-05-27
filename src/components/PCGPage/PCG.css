@@ -10,16 +10,9 @@
 .container {
     text-align: left;
     height: 100%;
-    /* position: relative; */
-    /* display: inline-flex; */
 }
 
 /* Title Style */
-
-/* .title {
-    display: flex;
-    place-items: center;
-} */
 
 .title h1 {
     font-size: 2rem;
@@ -27,7 +20,12 @@
     text-align: center;
 }
 
-.text p {
+#PCGtext {
+    margin: 50px;
+    width: 45%;
+}
+
+#PCGtext p {
     font-family: "Montserrat", sans-serif;
     color: #edf0f1;
     line-height: 1.5;
@@ -36,7 +34,7 @@
 
 .image_container {
     /* margin: 50px 50px 50px 0; */
-    width: 50%;
+    width: 45%;
 }
 
 .screenshot {

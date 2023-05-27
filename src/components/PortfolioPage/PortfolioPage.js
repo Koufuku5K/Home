@@ -3,6 +3,7 @@ import './PortfolioPage.css';
 import convex_hull_1 from '../../images/PCG/Second Hull.PNG'
 import convex_hull_2 from '../../images/PCG/Second Hull 2.PNG'
 import { observeIntersection } from './observer.js';
+import { Link } from 'react-router-dom'
 
 function PortfolioPage() {
 
@@ -50,20 +51,15 @@ function PortfolioPage() {
             </p>
           </div>
           <div class='rightdiv'>
-          <h1 class='sectionTitle'>Portfolio</h1>
-            <p>
-              Throughout my Undergraduate studies, I have learned and produced many artefacts. These
-              artefacts include, but are not limited to, games and digital illustrations.
-              <br></br>
-              <br></br>
-              In this page, you will be able to see the artefacts that I have created for both my
-              academics and leisure.
-            </p>
+            <img src={convex_hull_1} alt="Dungeon 1"/>
+            <img src={convex_hull_2} alt="Dungeon 2"/>
           </div>
         </div>
+
         <div id='section2' class='section'>
-          <h1 class='sectionTitle'>Project 1</h1>
-          <p>This is my website</p>
+          <img src={convex_hull_1} alt="Dungeon 1"/>
+          <Link to="/PCG" id="project1">Introducing Looping Structures to Enhance Procedural Dungeon Generation</Link>
+          <img src={convex_hull_2} alt="Dungeon 2"/>
         </div>
 
         <div id='section3' class='section'>
