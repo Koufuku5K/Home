@@ -7,7 +7,7 @@
     background-color: #24252A;
 }
 
-h1, li, a, button {
+h1, li, a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -20,8 +20,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     height: 15vh;
     opacity: 1;
     z-index: 100;
@@ -50,19 +52,6 @@ header {
 
 .nav_links li a:hover {
     color: #0088a9
-}
-
-button {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
 }
 
 .cta {
