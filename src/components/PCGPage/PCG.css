@@ -18,6 +18,24 @@
     padding-top: 15vh;
 }
 
+#image_container {
+    /* width: calc(50% - 10px); */
+    width: 45%;
+    margin-right: 50px;
+}
+
+#button_container {
+    /* margin: 0px 50px 0px 50px; */
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+#button_container a {
+    background-color: rgba(0, 136, 169, 0);
+}
+
 /* Title Style */
 
 .title h1 {
@@ -37,24 +55,6 @@
     color: #edf0f1;
     line-height: 1.5;
     text-align: justify;
-}
-
-#image_container {
-    /* width: calc(50% - 10px); */
-    width: 45%;
-    margin-right: 50px;
-}
-
-#button_container {
-    /* margin: 0px 50px 0px 50px; */
-    width: 100%;
-    text-align: center;
-    position: relative;
-    top: -30px;
-}
-
-#button_container a {
-    background-color: rgba(0, 136, 169, 0);
 }
 
 button {

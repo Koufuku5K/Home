@@ -166,7 +166,7 @@ body {
     display: none;
 }
 
-#section2 a {
+.section a {
     font-size: 1.5rem;
     background-color: rgba(0, 136, 169, 0);
 }
