@@ -4,12 +4,6 @@ import convex_hull_1 from '../../images/PCG/Second Hull.PNG'
 import convex_hull_2 from '../../images/PCG/Second Hull 2.PNG'
 import { Link } from 'react-router-dom'
 
-function OpenInNewTab(id){
-    alert(id);
-  var win = window.open('https://www.youtube.com/watch?v=UaRIdTzuofU&ab_channel=Koufuku');
-    win.focus();
-    }
-
 function PCG() {
   return (
     <>
@@ -47,7 +41,11 @@ function PCG() {
         </div>
 
         <div id="button_container">
-            <button ><Link href="#" onClick = {() => OpenInNewTab()}>YouTube Video</Link></button>
+            <Link to="https://www.youtube.com/watch?v=UaRIdTzuofU&ab_channel=Koufuku" target="_blank">
+                <button>
+                    <span>YouTube Video</span>
+                </button>
+            </Link>
             <button><Link to="/PortfolioPage">Back</Link></button>
         </div>
 
