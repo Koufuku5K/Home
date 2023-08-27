@@ -3,9 +3,10 @@ import Navbar from './components/Navbar/Navbar.js';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/HomePage/Home.js';
-import PortfolioPage from './components/PortfolioPage/PortfolioPage.js';
+import PortfolioPage from './components/PortfolioPage/PortfolioPage.js'
 import About from './components/AboutPage/About.js'
 import PCG from './components/PCGPage/PCG.js'
+import FlashDodge from './components/FlashDodgePage/FlashDodge.js'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/PortfolioPage" element={<PortfolioPage/>} />
           <Route path="/About" element={<About/>} />
           <Route path="/PCG" element={<PCG/>} />
+          <Route path="/FlashDodge" element={<FlashDodge/>} />
         </Routes>
     </Router>
     </>

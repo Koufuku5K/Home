@@ -21,7 +21,7 @@ function PortfolioPage() {
         </div>
 
         <div id='section2' class='section'>
-          <h1 class="sectionTitle">Dissertation Project</h1>
+          <h1 class="sectionTitle">1. Dissertation Project</h1>
             <br></br>
             <p>
               Introducing Loop Structures to Enhance Procedural Dungeon Generation
@@ -32,7 +32,7 @@ function PortfolioPage() {
         </div>
 
         <div id='section3' class='section'>
-          <h1 class='sectionTitle'>FPS Reaction Practice</h1>
+          <h1 class='sectionTitle'>2. FPS Reaction Practice</h1>
           <br></br>
           <p>
             A simple game to train your flash dodging practice. The target audience of this project are Valorant players.
