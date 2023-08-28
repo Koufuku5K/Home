@@ -32,11 +32,11 @@ function PCG() {
         </div>
 
         <div id="image_container">
-            <div class="screenshot">
-                <img class="pcg_img" src={convex_hull_1} alt="Dungeon 1"/>
+            <div id="PCG_screenshot">
+                <img class="PCG_img" src={convex_hull_1} alt="Dungeon 1"/>
             </div>
-            <div class="screenshot">
-                <img class="pcg_img" src={convex_hull_2} alt="Dungeon 2"/>
+            <div id="PCG_screenshot">
+                <img class="PCG_img" src={convex_hull_2} alt="Dungeon 2"/>
             </div>
         </div>
 

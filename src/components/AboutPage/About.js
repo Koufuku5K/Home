@@ -36,10 +36,10 @@ function About() {
         </div>
         <div class="image_container">
             <div class="screenshot">
-                <img src={initial_truth_1} alt="Initial Truth Screenshot 1"/>
+                <img class="about_img" src={initial_truth_1} alt="Initial Truth Screenshot 1"/>
             </div>
             <div class="screenshot">
-                <img src={initial_truth_2} alt="Initial Truth Screenshot 2"/>
+                <img class="about_img" src={initial_truth_2} alt="Initial Truth Screenshot 2"/>
             </div>
         </div>
     </div>

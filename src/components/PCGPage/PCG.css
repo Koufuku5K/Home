@@ -27,7 +27,7 @@
     width: 100%;
     text-align: center;
     position: relative;
-    top: -30px;
+    padding-bottom: 25px;
 }
 
 #button_container a {
@@ -75,18 +75,23 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }   
 
-.screenshot {
+#PCG_screenshot {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     vertical-align: middle;
+    float: right;
+    width: 100%;
+}
+
+.PCG_img {
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 /* Image Style */
 @media (min-width: 100px) {
-    .pcg_img {
+    .PCG_img {
         width: 100%;
-        max-width: 400px;
         height: auto;
-        margin: 0px 0px 70px 0px;
     }
 }

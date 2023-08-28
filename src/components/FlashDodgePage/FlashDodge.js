@@ -31,10 +31,10 @@ function FlashDodge() {
 
         <div id="media_container">
             <div class="screenshot">
-                <img class="pcg_img" src={convex_hull_1} alt="Dungeon 1"/>
+                <img class="flashdodge_img" src={convex_hull_1} alt="Dungeon 1"/>
             </div>
             <div class="video">
-                <video width="384" height="216" controls>
+                <video class="flashdodge_video" width="384" height="216" controls>
                     <source src={BreachFlashDodge} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
