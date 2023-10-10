@@ -42,6 +42,17 @@ function PortfolioPage() {
           <button><Link to="/FlashDodge">Click Me!</Link></button>
         </div>
 
+        <div id='section4' class='section'>
+          <h1 class='sectionTitle'>3. Initial Truth Game</h1>
+          <br></br>
+          <p>
+            A simple STG/Shoot 'em up game mixed with real-time turn based mechanics.
+          </p>
+          <br></br>
+          <br></br>
+          <button><Link to="/FlashDodge">Click Me!</Link></button>
+        </div>
+
     </div>
     </>
   )

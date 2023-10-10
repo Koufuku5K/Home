@@ -7,6 +7,7 @@ import PortfolioPage from './components/PortfolioPage/PortfolioPage.js'
 import About from './components/AboutPage/About.js'
 import PCG from './components/PCGPage/PCG.js'
 import FlashDodge from './components/FlashDodgePage/FlashDodge.js'
+import InitialTruth from './components/InitialTruthPage/InitialTruth.js'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/About" element={<About/>} />
           <Route path="/PCG" element={<PCG/>} />
           <Route path="/FlashDodge" element={<FlashDodge/>} />
+          <Route path="/InitialTruth" element={<InitialTruth/>} />
         </Routes>
     </Router>
     </>
