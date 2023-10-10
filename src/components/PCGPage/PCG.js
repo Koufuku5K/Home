@@ -1,11 +1,15 @@
 import React from 'react'
+import { useEffect } from 'react'
 import './PCG.css'
 import convex_hull_1 from '../../images/PCG/Second Hull.PNG'
 import convex_hull_2 from '../../images/PCG/Second Hull 2.PNG'
 import { Link } from 'react-router-dom'
 
 function PCG() {
-  return (
+    useEffect(() => {
+        window.scrollTo(0, 0); // Loads the page from the top
+    }, []);
+    return (
     <>
     <div class="container">
         <div id="PCGtext">
@@ -28,6 +32,11 @@ function PCG() {
                 Consequently, this opens up a lot of interesting gameplay mechanics that could be implemented by the developers.
                 Furthermore, the Graham Scan has O&#40;n log n&#41; time complexity, which is a decent algorithm for small dungeons with
                 few rooms.
+                <br></br>
+                <br></br>
+                <b>"An interesting project with interesting approach."</b>
+                <br></br>   
+                - Dr. Gary Ushaw, Newcastle University
             </p>
         </div>
 

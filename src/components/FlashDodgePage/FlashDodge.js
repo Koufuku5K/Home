@@ -1,12 +1,15 @@
 import React from 'react'
+import { useEffect } from 'react'
 import './FlashDodge.css'
-import convex_hull_1 from '../../images/PCG/Second Hull.PNG'
+import flash_dodge from '../../images/FlashDodge/FlashDodge.JPG'
 import BreachFlashDodge from '../../videos/BreachFlashDodge.mp4'
-import convex_hull_2 from '../../images/PCG/Second Hull 2.PNG'
 import { Link } from 'react-router-dom'
 
 function FlashDodge() {
-  return (
+    useEffect(() => {
+        window.scrollTo(0, 0); // Loads the page from the top
+    }, []);
+    return (
     <>
     <div class="container">
         <div id="PCGtext">
@@ -16,9 +19,9 @@ function FlashDodge() {
                 improve significantly in the game.
                 <br></br>
                 <br></br>
-                There are many tools that can help with our FPS skills. These include AimLab and the training range available in Valorant.
-                However, as I climb up the competitive ranks, I realise the importance of being able to make split second decisions, mainly
-                to dodge flashes. 
+                There are many tools that can help with our FPS skills. These include softwares/games available on Steam such as
+                AimLab and the training range available in Valorant. However, as I climb up the competitive ranks, I realise 
+                the importance of being able to make split second decisions, mainly to dodge flashes. 
                 <br></br>
                 <br></br>
                 At the time of writing &#40;August 2023&#41;, both AimLab and Valorant training range do not have
@@ -31,7 +34,7 @@ function FlashDodge() {
 
         <div id="media_container">
             <div class="screenshot">
-                <img class="flashdodge_img" src={convex_hull_1} alt="Dungeon 1"/>
+                <img class="flashdodge_img" src={flash_dodge} alt="Flash Dodge"/>
             </div>
             <div class="video">
                 <video class="flashdodge_video" width="384" height="216" controls>
