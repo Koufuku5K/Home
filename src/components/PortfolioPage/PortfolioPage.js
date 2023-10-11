@@ -50,7 +50,7 @@ function PortfolioPage() {
           </p>
           <br></br>
           <br></br>
-          <button><Link to="/FlashDodge">Click Me!</Link></button>
+          <button><Link to="/InitialTruth">Click Me!</Link></button>
         </div>
 
     </div>

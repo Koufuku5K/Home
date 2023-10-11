@@ -42,12 +42,12 @@
     text-align: center;
 }
 
-#PCGtext {
+#Maintext {
     margin-left: 50px;
     width: 45%;
 }
 
-#PCGtext p {
+#Maintext p {
     font-family: "Montserrat", sans-serif;
     color: #edf0f1;
     line-height: 1.5;

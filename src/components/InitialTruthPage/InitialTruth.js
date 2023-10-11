@@ -1,8 +1,8 @@
 import React from 'react'
 import { useEffect } from 'react'
 import './InitialTruth.css'
-import flash_dodge from '../../images/FlashDodge/FlashDodge.JPG'
-import BreachFlashDodge from '../../videos/BreachFlashDodge.mp4'
+import initial_truth1 from '../../images/initial_truth_1.png'
+import initial_truth2 from '../../images/initial_truth_2.png'
 import { Link } from 'react-router-dom'
 
 function InitialTruth() {
@@ -12,35 +12,37 @@ function InitialTruth() {
     return (
     <>
     <div class="container">
-        <div id="PCGtext">
+        <div id="Maintext">
             <p>
-                Valorant is one of my most played video game. Playing and competing with my friends against
-                other players is something I find very fun. Therefore, I invested a lot of hours into Valorant and was able to
-                improve significantly in the game.
+                Initial Truth is a simple video game that I made. In this video game, I explored the genre STG/Shoot 'em up and
+                a hybrid of Real-Time and Turn Based RPG.
                 <br></br>
                 <br></br>
-                There are many tools that can help with our FPS skills. These include softwares/games available on Steam such as
-                AimLab and the training range available in Valorant. However, as I climb up the competitive ranks, I realise 
-                the importance of being able to make split second decisions, mainly to dodge flashes. 
+                The original Final Fantasy 7 left a huge impression on me. Although it is considered a retro game, I really enjoyed
+                the gameplay and turn-based mechanics. However, in recent years, real-time mechanics have been the norm in video
+                games. This inspired me to explore the two mechanics and try to combine them into one. As a result, Initial Truth
+                features real-time and turn based mechanics.
                 <br></br>
                 <br></br>
-                At the time of writing &#40;August 2023&#41;, both AimLab and Valorant training range do not have
-                a mode that trains flash dodging. As a result, to help myself improve in the game, I created my own Flash Dodging practice.
+                In Initial Truth, the game starts off as a shoot 'em up game. Swarms of slimes will spawn in random positions and chase
+                the player to attack the player. The player will have to use magic to attack the slimes and survive for a set period.
+                After surviving the swarm, the boss will appear. Colliding with the boss will engage a battle. This is where the
+                hybrid &#40;real-time and turn-based mechanics&#41; take place.
                 <br></br>
                 <br></br>
-                The results were spot on.
+                During the boss fight, both player and boss have a wait bar. This wait bar increases in real-time. When the wait bar
+                fills, the player or the boss can make a move. The interesting part is: if the player do not make a move after the
+                wait bar fills, the boss will keep on making moves. This promotes faster paced turn-based RPG while still allowing the
+                player to strategize for a short window of time.
             </p>
         </div>
 
         <div id="media_container">
             <div class="screenshot">
-                <img class="flashdodge_img" src={flash_dodge} alt="Flash Dodge"/>
+                <img class="initialtruth_img" src={initial_truth1} alt="Shoot 'em up"/>
             </div>
-            <div class="video">
-                <video class="flashdodge_video" width="384" height="216" controls>
-                    <source src={BreachFlashDodge} type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+            <div class="screenshot">
+                <img class="initialtruth_img" src={initial_truth2} alt="Hybrid Real-Time Turn Based"/>
             </div>
         </div>
 
