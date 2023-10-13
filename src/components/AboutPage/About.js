@@ -10,7 +10,7 @@ function About() {
             <h1>Hello!</h1>
             <div>
                 My name is William Moses. I am a Newcastle University graduate with a Bachelor of Science &#40;BSc&#41; Bachelor's 
-                degree in Computer Science, specialised in Game Engineering. I attended Newcastle University in Newcastle upon Tyne, UK.
+                degree in Computer Science, specialised in Game Engineering. I studied at Newcastle University in Newcastle upon Tyne, UK.
                 <br></br>
                 <br></br>
                 Art comes in many shapes and forms: paintings, sculptures, music, films, literature,
