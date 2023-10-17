@@ -9,6 +9,7 @@ import PCG from './components/PCGPage/PCG.js'
 import FlashDodge from './components/FlashDodgePage/FlashDodge.js'
 import InitialTruth from './components/InitialTruthPage/InitialTruth.js'
 import Contact from './components/ContactPage/Contact.js'
+import FlashDodgeGame from './components/FlashDodgeGame/FlashDodgeGame.js'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/FlashDodge" element={<FlashDodge/>} />
           <Route path="/InitialTruth" element={<InitialTruth/>} />
           <Route path="/Contact" element={<Contact/>} />
+          <Route path="/FlashDodgeGame" element={<FlashDodgeGame/>} />
         </Routes>
     </Router>
     </>

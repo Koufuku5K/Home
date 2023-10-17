@@ -12,7 +12,7 @@ function FlashDodge() {
     return (
     <>
     <div class="container">
-        <div id="PCGtext">
+        <div id="Maintext">
             <p>
                 Valorant is one of my most played video game. Playing and competing with my friends against
                 other players is something I find very fun. Therefore, I invested a lot of hours into Valorant and was able to
@@ -45,7 +45,7 @@ function FlashDodge() {
         </div>
 
         <div id="button_container">
-            <Link to="https://www.youtube.com/watch?v=UaRIdTzuofU&ab_channel=Koufuku" target="_blank">
+            <Link to="/FlashDodgeGame" target="_blank">
                 <button>
                     <span>YouTube Video</span>
                 </button>
