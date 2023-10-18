@@ -47,7 +47,7 @@ function FlashDodge() {
         <div id="button_container">
             <Link to="/FlashDodgeGame" target="_blank">
                 <button>
-                    <span>YouTube Video</span>
+                    <span>Play the Game</span>
                 </button>
             </Link>
             <button><Link to="/PortfolioPage">Back</Link></button>

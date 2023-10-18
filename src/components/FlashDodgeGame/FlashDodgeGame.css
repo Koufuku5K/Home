@@ -36,12 +36,6 @@
 
 /* Title Style */
 
-.title h1 {
-    font-size: 2rem;
-    color: #edf0f1;
-    text-align: center;
-}
-
 #Maintext {
     margin-left: 50px;
     width: 45%;
@@ -93,6 +87,10 @@ button:hover {
 .flashdodge_img {
     width: 100%;
     margin-bottom: 50px;
+}
+
+iframe {
+    border: none;
 }
 
 /* Image Style */
