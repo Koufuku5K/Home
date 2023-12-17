@@ -7,27 +7,30 @@
     background-color: #24252A;
 }
 
-.container {
+.container_pcg {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     text-align: left;
-    height: 100vh;
-    padding-top: 15vh;
+    height: 100%;
+    top: 15vh;
 }
 
 #image_container {
     width: 45%;
     margin-right: 50px;
+    margin-top: 50px;
 }
 
 #button_container {
     width: 100%;
     text-align: center;
     position: relative;
-    padding-bottom: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #button_container a {
@@ -45,6 +48,7 @@
 #Maintext {
     margin-left: 50px;
     width: 45%;
+    margin-top: 50px;
 }
 
 #Maintext p {

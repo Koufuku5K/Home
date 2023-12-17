@@ -11,7 +11,7 @@ function PCG() {
     }, []);
     return (
     <>
-    <div class="container">
+    <div class="container_pcg">
         <div id="Maintext">
             <p>
                 For my undergraduate dissertation project, I researched into the Procedural Content Generation &#40;PCG&#41;
@@ -50,9 +50,9 @@ function PCG() {
         </div>
 
         <div id="button_container">
-            <Link to="https://www.youtube.com/watch?v=UaRIdTzuofU&ab_channel=Koufuku" target="_blank">
+            <Link to="https://github.com/Koufuku5K/3094-dissertation" target="_blank">
                 <button>
-                    <span>YouTube Video</span>
+                    <span>GitHub Repo</span>
                 </button>
             </Link>
             <button><Link to="/PortfolioPage">Back</Link></button>

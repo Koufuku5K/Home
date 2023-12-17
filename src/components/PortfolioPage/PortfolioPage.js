@@ -1,11 +1,14 @@
 import './PortfolioPage.css';
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function PortfolioPage() {
-
+  useEffect(() => {
+    window.scrollTo(0, 0); // Loads the page from the top
+  }, []);
   return (
     <>
-    <div class="portfolioContainer">
+    <div class="portfolio_container">
 
         <div id='section1' class='section'>
           <h1 class="sectionTitle">Portfolio</h1>
