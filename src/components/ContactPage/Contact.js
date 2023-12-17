@@ -8,6 +8,7 @@ function Contact() {
             <h1>Keep in Touch!</h1>
             <div>
                 E-mail: wmoses5k@gmail.com
+                <br></br>
                 Mobile: +818070632307
             </div>
         </div>

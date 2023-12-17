@@ -12,7 +12,7 @@ function PCG() {
     return (
     <>
     <div class="container">
-        <div id="PCGtext">
+        <div id="Maintext">
             <p>
                 For my undergraduate dissertation project, I researched into the Procedural Content Generation &#40;PCG&#41;
                 Field.

@@ -7,45 +7,42 @@
     background-color: #24252A;
 }
 
-.container {
-    text-align: left;
+.container_about {
     height: 100%;
+    top: 15vh;
     position: relative;
     display: inline-flex;
+    justify-content: space-between;
 }
 
-.text {
-    margin: 50px;
+.text_about {
+    position: relative;
     width: 45%;
-    padding-left: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
 }
 
-.text h1 {
+.text_about h1 {
     font-size: 3rem;
     color: #edf0f1;
     padding-bottom: 15px;
     text-align: left;
 }
 
-.text div {
+.text_about div {
     font-family: "Montserrat", sans-serif;
     color: #edf0f1;
     line-height: 1.5;
     text-align: justify;
 }
 
-.image_container {
-    margin: 50px 50px 50px 0;
+.image_container_about {
+    position: relative;
+    padding-right: 100px;
     width: 45%;
 }
 
-.screenshot {
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-}
-
 .about_img {
-    width: 100%;
-    margin-bottom: 50px;
+    width: 50% !important;
+    padding-top: 50px;
 }
