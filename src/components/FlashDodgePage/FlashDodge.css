@@ -7,32 +7,39 @@
     background-color: #24252A;
 }
 
-.container {
+.container_flash_dodge {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     text-align: left;
-    height: 100vh;
-    padding-top: 15vh;
+    height: 100%;
+    top: 15vh;
 }
 
-#media_container {
+#image_container {
     width: 45%;
     margin-right: 50px;
+    margin-top: 50px;
 }
 
 #button_container {
     width: 100%;
     text-align: center;
     position: relative;
-    top: -30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #button_container a {
     background-color: rgba(0, 136, 169, 0);
 }
+
+#flash_dodge_hyperlink a {
+    text-decoration: underline;
+  }
 
 /* Title Style */
 
@@ -75,7 +82,7 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }   
 
-.screenshot {
+.flashdodge_screenshot {
     display: flex;
     justify-content: center;
     vertical-align: middle;

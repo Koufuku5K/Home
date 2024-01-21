@@ -39,7 +39,12 @@ function FlashDodgeGame() {
             <br></br>
         <Link to="/Home" target="_blank">
             <button>
-                <span>Download the Game</span>
+                <span>
+                    <a href="https://drive.google.com/file/d/1gHJjc6FFsEqSmk4yMb0AA8suoX8vcRk3/view?usp=drive_link" 
+                    download class="download-button">
+                    Download the Game
+                    </a>
+                </span>
             </button>
         </Link>
     </div>

@@ -34,6 +34,16 @@ function PCG() {
                 few rooms.
                 <br></br>
                 <br></br>
+                Algorithms Used and Researched:
+                <ol>
+                    <li>Manhattan Distance</li>
+                    <li>Convex Hull Algorithms</li>
+                    <li>Depth First Search</li>
+                    <li>Cellular Automata</li>
+                    <li>Random Walk Algorithm</li>
+                </ol>
+                <br></br>
+                <br></br>
                 <b>"An interesting project with interesting approach."</b>
                 <br></br>   
                 - Dr. Gary Ushaw, Newcastle University
