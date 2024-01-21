@@ -96,6 +96,10 @@ button:hover {
     margin-bottom: 50px;
 }
 
+video {
+    margin-bottom: 50px;
+}
+
 /* Image Style */
 @media (min-width: 100px) {
     .PCG_img {

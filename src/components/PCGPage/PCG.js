@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import './PCG.css'
 import convex_hull_1 from '../../images/PCG/Second Hull.PNG'
-import convex_hull_2 from '../../images/PCG/Second Hull 2.PNG'
+import pcg_video from '../../videos/PCG_Video.mp4'
 import { Link } from 'react-router-dom'
 
 function PCG() {
@@ -54,8 +54,11 @@ function PCG() {
             <div id="PCG_screenshot">
                 <img class="PCG_img" src={convex_hull_1} alt="Dungeon 1"/>
             </div>
-            <div id="PCG_screenshot">
-                <img class="PCG_img" src={convex_hull_2} alt="Dungeon 2"/>
+            <div id="PCG_video">
+                <video width="640" height="360" controls>
+                    <source src={pcg_video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
 
