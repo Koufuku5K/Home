@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import './FlashDodge.css'
 import flash_dodge from '../../images/FlashDodge/FlashDodge.JPG'
-import BreachFlashDodge from '../../videos/BreachFlashDodge.mp4'
+import FlashDodgeGameVideo from '../../videos/FlashDodgeGame.mp4'
 import { Link } from 'react-router-dom'
 
 function FlashDodge() {
@@ -53,7 +53,7 @@ function FlashDodge() {
             </div>
             <div class="flash_dodge_video">
                 <video class="flashdodge_video" width="384" height="216" controls>
-                    <source src={BreachFlashDodge} type="video/mp4" />
+                    <source src={FlashDodgeGameVideo} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
