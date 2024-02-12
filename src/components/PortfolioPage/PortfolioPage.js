@@ -1,25 +1,29 @@
 import './PortfolioPage.css';
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
+import {useTranslation} from 'react-i18next'
 
 function PortfolioPage() {
   useEffect(() => {
     window.scrollTo(0, 0); // Loads the page from the top
   }, []);
+
+  const [t, i18n] = useTranslation("global");
+
   return (
     <>
     <div class="portfolio_container">
 
         <div id='section1' class='section'>
-          <h1 class="sectionTitle">Portfolio</h1>
-            <br></br>
+          <h1 class="sectionTitle">
+            {t("heading.message")}
+          </h1>
+          <br></br>
             <p>
-              Throughout my Undergraduate studies, I have learnt and produced many artefacts. These
-              artefacts include, but are not limited to, games and digital illustrations.
+              {t("sub-heading.paragraph1")}
               <br></br>
               <br></br>
-              In this page, you will be able to see the artefacts that I have created for both my
-              academics and leisure.
+              {t("sub-heading.paragraph2")}
             </p>
         </div>
 
