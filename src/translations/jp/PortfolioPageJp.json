@@ -1,8 +1,9 @@
 {
-    "header": {
+    "heading": {
         "message": "ポートフォリオ"
     },
-    "home": {
-        "body": "ポートフォリオ１"
+    "sub-heading": {
+        "paragraph1": "ポートフォリオ１",
+        "paragraph2": "ポートフォリオ２"
     }
 }
