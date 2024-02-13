@@ -8,7 +8,7 @@ function PortfolioPage() {
     window.scrollTo(0, 0); // Loads the page from the top
   }, []);
 
-  const [t, i18n] = useTranslation("global");
+  const [t, ] = useTranslation("global");
 
   return (
     <>
@@ -28,10 +28,10 @@ function PortfolioPage() {
         </div>
 
         <div id='section2' class='section'>
-          <h1 class="sectionTitle">1. Dissertation Project</h1>
+          <h1 class="sectionTitle">{t("portfolio1.title")}</h1>
             <br></br>
             <p>
-              Introducing Loop Structures to Enhance Procedural Dungeon Generation
+              {t("portfolio1.description")}
             </p>
             <br></br>
             <br></br>
@@ -39,10 +39,10 @@ function PortfolioPage() {
         </div>
 
         <div id='section3' class='section'>
-          <h1 class='sectionTitle'>2. FPS Reaction Practice</h1>
+          <h1 class='sectionTitle'>{t("portfolio2.title")}</h1>
           <br></br>
           <p>
-            A simple game to train your flash dodging practice. The target audience of this project are Valorant players.
+            {t("portfolio2.description")}
           </p>
           <br></br>
           <br></br>
@@ -50,10 +50,10 @@ function PortfolioPage() {
         </div>
 
         <div id='section4' class='section'>
-          <h1 class='sectionTitle'>3. Initial Truth Game</h1>
+          <h1 class='sectionTitle'>{t("portfolio3.title")}</h1>
           <br></br>
           <p>
-            A simple STG/Shoot 'em up game mixed with real-time turn based mechanics.
+            {t("portfolio3.description")}
           </p>
           <br></br>
           <br></br>

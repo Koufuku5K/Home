@@ -5,5 +5,17 @@
     "sub-heading": {
         "paragraph1": "Throughout my Undergraduate studies, I have learnt and produced many artefacts. These artefacts include, but are not limited to, games and digital illustrations.",
         "paragraph2": "In this page, you will be able to see the artefacts that I have created for both my academics and leisure."
+    },
+    "portfolio1": {
+        "title": "1. Dissertation Project",
+        "description": "Introducing Loop Structures to Enhance Procedural Dungeon Generation"
+    },
+    "portfolio2": {
+        "title": "2. FPS Reaction Practice",
+        "description": "A simple game to train your flash dodging in Valorant"
+    },
+    "portfolio3": {
+        "title": "3. Initial Truth Game",
+        "description": "A simple STG/Shoot 'em up game mixed with real-time turn based mechanics"
     }
 }
