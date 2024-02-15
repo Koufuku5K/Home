@@ -8,10 +8,10 @@
 
 .container_about {
     height: 100%;
-    top: 15vh;
     position: relative;
     display: inline-flex;
     justify-content: space-between;
+    background-color: #c6e2e9;
 }
 
 .text_about {
@@ -23,14 +23,14 @@
 
 .text_about h1 {
     font-size: 3rem;
-    color: #edf0f1;
+    color: #3c3c3c;
     padding-bottom: 15px;
     text-align: left;
 }
 
 .text_about div {
     font-family: "Montserrat", sans-serif;
-    color: #edf0f1;
+    color: #3c3c3c;
     line-height: 1.5;
     text-align: justify;
 }
