@@ -2,6 +2,7 @@ import './PortfolioPage.css';
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import {useTranslation} from 'react-i18next'
+import pcg_video from '../../videos/PCG_Video.mp4'
 
 function PortfolioPage() {
   useEffect(() => {
@@ -33,7 +34,17 @@ function PortfolioPage() {
           </div>
         </div>
 
-        <div class='section'>
+        <div class='videoBg'>
+          <div class='pcgVideoDiv'>
+            <h1 class="videoTitle">{t("portfolio1.title")}</h1>
+            <video id='pcgVideoAutoplay' class='pcgVideo' preload='auto' autoPlay muted loop controls>
+                <source src={pcg_video} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <div id='pcgDiv' class='section'>
           <h1 class="sectionTitle">{t("portfolio1.title")}</h1>
             <br></br>
             <p>
