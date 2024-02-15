@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.242f73ae.css",
+    "main.css": "/Portfolio/static/css/main.0d90a158.css",
     "main.js": "/Portfolio/static/js/main.a72814c6.js",
     "static/media/FlashDodgeGame.mp4": "/Portfolio/static/media/FlashDodgeGame.84e8d1add1c3ec26d6f4.mp4",
     "static/media/PCG_Video.mp4": "/Portfolio/static/media/PCG_Video.3ee04b209fa217bda7ec.mp4",
@@ -10,11 +10,11 @@
     "static/media/self_portrait.jpeg": "/Portfolio/static/media/self_portrait.6cb0c16cb74b1949f352.jpeg",
     "static/media/FlashDodge.JPG": "/Portfolio/static/media/FlashDodge.a4d451c7db1573cd5c2d.JPG",
     "index.html": "/Portfolio/index.html",
-    "main.242f73ae.css.map": "/Portfolio/static/css/main.242f73ae.css.map",
+    "main.0d90a158.css.map": "/Portfolio/static/css/main.0d90a158.css.map",
     "main.a72814c6.js.map": "/Portfolio/static/js/main.a72814c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.242f73ae.css",
+    "static/css/main.0d90a158.css",
     "static/js/main.a72814c6.js"
   ]
 }
