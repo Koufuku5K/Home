@@ -12,7 +12,7 @@ function FlashDodge() {
     return (
     <>
     <div class="container_flash_dodge">
-        <div id="Maintext">
+        <div id="maintext_flash_dodge">
             <p>
                 In FPS games like Valorant and Counter-Strike, there are certain game mechanics that players need to learn to
                 win. One of the most crucial mechanics in FPS is "flash dodging." A flash is an in-game utility that causes
@@ -65,7 +65,11 @@ function FlashDodge() {
                     <span>Play the Game</span>  
                 </button>
             </Link>
-            <button><Link to="/PortfolioPage">Back</Link></button>
+            <Link to="/PortfolioPage">
+                <button>
+                    <span>Back</span>
+                </button>
+            </Link>
         </div>
 
     </div>

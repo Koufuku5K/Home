@@ -11,8 +11,8 @@ function InitialTruth() {
     }, []);
     return (
     <>
-    <div class="container">
-        <div id="Maintext">
+    <div class="container_initial_truth">
+        <div id="maintext_initial_truth">
             <p>
                 Initial Truth is a simple video game that I made. In this video game, I explored the genre STG/Shoot 'em up and
                 a hybrid of Real-Time and Turn Based RPG.
@@ -52,7 +52,11 @@ function InitialTruth() {
                     <span>YouTube Video</span>
                 </button>
             </Link>
-            <button><Link to="/PortfolioPage">Back</Link></button>
+            <Link to="/PortfolioPage">
+                <button>
+                    <span>Back</span>
+                </button>
+            </Link>
         </div>
 
     </div>

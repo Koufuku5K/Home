@@ -6,15 +6,15 @@
     padding: 0;
 }
 
-.container {
+.container_initial_truth {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     text-align: left;
-    height: 100vh;
-    padding-top: 15vh;
+    height: 100%;
+    background-color: #c6e2e9;
 }
 
 #media_container {
@@ -37,18 +37,18 @@
 
 .title h1 {
     font-size: 2rem;
-    color: #edf0f1;
+    color: #3c3c3c;
     text-align: center;
 }
 
-#Maintext {
+#maintext_initial_truth {
     margin-left: 50px;
     width: 45%;
 }
 
-#Maintext p {
+#maintext_initial_truth p {
     font-family: "Montserrat", sans-serif;
-    color: #edf0f1;
+    color: #3c3c3c;
     line-height: 1.5;
     text-align: justify;
 }

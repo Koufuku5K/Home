@@ -15,7 +15,6 @@
     flex-wrap: wrap;
     text-align: left;
     height: 100%;
-    top: 15vh;
     background-color: #c6e2e9;
 }
 
@@ -45,13 +44,13 @@
     text-align: center;
 }
 
-#Maintext {
+#maintext_pcg {
     margin-left: 50px;
     width: 45%;
     margin-top: 50px;
 }
 
-#Maintext p {
+#maintext_pcg p {
     font-family: "Montserrat", sans-serif;
     color: #3c3c3c;
     line-height: 1.5;

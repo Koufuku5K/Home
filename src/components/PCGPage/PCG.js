@@ -12,7 +12,7 @@ function PCG() {
     return (
     <>
     <div class="container_pcg">
-        <div id="Maintext">
+        <div id="maintext_pcg">
             <p>
                 For my undergraduate dissertation project, I researched into the Procedural Content Generation &#40;PCG&#41;
                 Field.
@@ -68,7 +68,11 @@ function PCG() {
                     <span>GitHub Repo</span>
                 </button>
             </Link>
-            <button><Link to="/PortfolioPage">Back</Link></button>
+            <Link to="/PortfolioPage">
+                <button>
+                    <span>Back</span>
+                </button>
+            </Link>
         </div>
 
     </div>
