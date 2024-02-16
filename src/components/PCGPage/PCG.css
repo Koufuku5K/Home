@@ -16,6 +16,7 @@
     text-align: left;
     height: 100%;
     top: 15vh;
+    background-color: #c6e2e9;
 }
 
 #image_container {
@@ -40,7 +41,7 @@
 
 .title h1 {
     font-size: 2rem;
-    color: #edf0f1;
+    color: #3c3c3c;
     text-align: center;
 }
 
@@ -52,7 +53,7 @@
 
 #Maintext p {
     font-family: "Montserrat", sans-serif;
-    color: #edf0f1;
+    color: #3c3c3c;
     line-height: 1.5;
     text-align: justify;
 }
