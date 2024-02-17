@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.78fb1649.css",
-    "main.js": "/Portfolio/static/js/main.1c3b6633.js",
+    "main.css": "/Portfolio/static/css/main.817f7eea.css",
+    "main.js": "/Portfolio/static/js/main.ab098181.js",
+    "static/media/InitialTruthGame.mp4": "/Portfolio/static/media/InitialTruthGame.225f49ec460fc8278f99.mp4",
     "static/media/FlashDodgeGame.mp4": "/Portfolio/static/media/FlashDodgeGame.84e8d1add1c3ec26d6f4.mp4",
+    "static/media/FlashDodgeGameClip.mp4": "/Portfolio/static/media/FlashDodgeGameClip.39176860fcede58614ac.mp4",
     "static/media/PCG_Video.mp4": "/Portfolio/static/media/PCG_Video.3ee04b209fa217bda7ec.mp4",
     "static/media/Second Hull.PNG": "/Portfolio/static/media/Second Hull.18bba51b2ca748b4c2c8.PNG",
     "static/media/initial_truth_2.png": "/Portfolio/static/media/initial_truth_2.31e39a230d756b478e67.png",
@@ -10,11 +12,11 @@
     "static/media/self_portrait.jpeg": "/Portfolio/static/media/self_portrait.6cb0c16cb74b1949f352.jpeg",
     "static/media/FlashDodge.JPG": "/Portfolio/static/media/FlashDodge.a4d451c7db1573cd5c2d.JPG",
     "index.html": "/Portfolio/index.html",
-    "main.78fb1649.css.map": "/Portfolio/static/css/main.78fb1649.css.map",
-    "main.1c3b6633.js.map": "/Portfolio/static/js/main.1c3b6633.js.map"
+    "main.817f7eea.css.map": "/Portfolio/static/css/main.817f7eea.css.map",
+    "main.ab098181.js.map": "/Portfolio/static/js/main.ab098181.js.map"
   },
   "entrypoints": [
-    "static/css/main.78fb1649.css",
-    "static/js/main.1c3b6633.js"
+    "static/css/main.817f7eea.css",
+    "static/js/main.ab098181.js"
   ]
 }
