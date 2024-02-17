@@ -153,3 +153,55 @@ button:hover {
     transform: translate(-9.5%, -35%);
     z-index: -1;
 }
+
+/* Flashdodge Div Style */
+
+#flashdodgeDiv {
+    background-color: #a7bed3;
+}
+
+.flashdodgeVideoDiv {
+    position: absolute;
+    overflow: hidden;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-width: 100%;
+}
+
+.flashdodgeVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-9.5%, -35%);
+    z-index: -1;
+}
+
+/* Initial Truth Div Style */
+
+#initialtruthDiv {
+    background-color: #a7bed3;
+}
+
+.initialtruthVideoDiv {
+    position: absolute;
+    overflow: hidden;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-width: 100%;
+}
+
+.initialtruthVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-9.5%, -35%);
+    z-index: -1;
+}
