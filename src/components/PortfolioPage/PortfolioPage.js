@@ -1,7 +1,7 @@
 import './PortfolioPage.css';
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
-import {useTranslation} from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import pcg_video from '../../videos/PCG_Video.mp4'
 import flashdodge_video from '../../videos/FlashDodgeGameClip.mp4'
 import initialtruth_video from '../../videos/InitialTruthGame.mp4'
